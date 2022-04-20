@@ -1,8 +1,6 @@
 name: Repo Configurator
 on: 
-    repository_dispatch:
-        types: [init-repo]
-    workflow_dispatch:
+   workflow_dispatch:
       inputs:
         repo:
           description: 'A repo to initialize the secrets.'
