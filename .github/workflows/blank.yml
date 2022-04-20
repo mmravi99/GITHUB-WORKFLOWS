@@ -28,5 +28,14 @@ jobs:
           repository: mmravi99/DevopsBasics
           path: DevopsBasics
           persist-credentials: false
+       # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: |
+          cd DevopsBasics
+          pip3 install pygithub
+          python3 updaterepo.py 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 mmravi99/GITHUB-WORKFLOWS 
+     
+     
+
 
      
