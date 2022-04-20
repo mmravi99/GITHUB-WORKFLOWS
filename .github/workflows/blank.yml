@@ -35,5 +35,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           pip3 install pygithub
-          python3 Repository-Configurator.py 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 mmravi99/GITHUB-WORKFLOWS
+          python3 updaterepo.py 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 mmravi99/GITHUB-WORKFLOWS
      
