@@ -33,7 +33,7 @@ jobs:
         run: |
           cd DevopsBasics
           pip3 install pygithub
-          python3 updaterepo.py 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 mmravi99/GITHUB-WORKFLOWS  
+          python3 updaterepo.py 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 mmravi99/GITHUB-WORKFLOWS  
      
      
 
