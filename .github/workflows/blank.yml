@@ -32,7 +32,7 @@ jobs:
       - name: Run a one-line script
         run: |
           cd DevopsBasics
-          ls -l
+          pip3 install pygithub
           python3 updaterepo.py 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 mmravi99/GITHUB-WORKFLOWS
      
      
